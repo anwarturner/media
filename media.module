@@ -1090,9 +1090,9 @@ function media_element_pre_render($element) {
   // If we already have a file, we don't want to show the browse and attach
   // controls.
   if (!empty($element['#value']['fid'])) {
-    $element['upload']['#access'] = FALSE;
-    $element['browse_button']['#access'] = FALSE;
-    $element['attach_button']['#access'] = FALSE;
+    // $element['upload']['#access'] = FALSE;
+    // $element['browse_button']['#access'] = FALSE;
+    // $element['attach_button']['#access'] = FALSE;
   }
   // If we don't already have a file, there is nothing to remove.
   else {
